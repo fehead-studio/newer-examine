@@ -1,0 +1,920 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    padding-top: 30px;
+}
+
+.head{
+    height: 34px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.head .nav{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.head .head3{
+    float: right;
+    margin-top: 6px;
+}
+
+.head .head1, .head .head2{
+    float: left;
+}
+
+.head .head3 ul li{
+    float: left;
+    margin-right: 14px;
+}
+
+.head .head1{
+    width: 160px;
+    margin-right: 20px;
+}
+
+.head .head1 a{
+    background: url("./img/douban.png") no-repeat; 
+    display: block;
+    height: 34px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head2{
+    border: 1px solid #c3c3c3;
+    width: 270px;
+    height: 30px;
+    position: relative;
+}
+
+.head .head2 form input{
+    width: 240px;
+    height: 20px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.head .head2 form input::placeholder{
+    color: #ccc;
+}
+
+.head .head2 form button{
+    width: 30px;
+    height: 30px;
+    background: url("./img/bn.png") 50% 50% no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head .head3 ul .db-read{
+    background: url("./img/anony_nav_logo.png") 0px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-movie{
+    background: url("./img/anony_nav_logo.png") -60px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-music{
+    background: url("./img/anony_nav_logo.png") -121px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-city{
+    background: url("./img/anony_nav_logo.png") -300px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-team{
+    background: url("./img/anony_nav_logo.png") -180px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-cheat{
+    background: url("./img/ic_read_home_nav.png")no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-FM{
+    background: url("./img/anony_nav_logo.png") -241px 0px no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-time{
+    background: url("./img/ic_shijian_home_nav.png") no-repeat;
+    height: 20px;
+    width: 40px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.head .head3 ul .db-dp{
+    background: url("./img/anony_nav_logo.png") -421px 0px no-repeat;
+    height: 20px;
+    width: 42px;
+    display: block;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.spoke{
+    background: url("./img/background1.jpg")no-repeat ;
+    background-size: contain;
+    background-position-x:147px;
+    background-position-y: top;
+    background-color: #edf4ed;
+    height: 304px;
+    color: #9b9b9b;
+    margin-bottom: 25px;
+}
+
+.wapper{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.spoke .wapper .account-body{
+    float: right;
+    width: 300px;
+    height: 296px;
+    padding: 30px 10px 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.spoke .wapper .account-body .account-body-table{
+    width: 280px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.spoke .wapper .account-body .account-body-table ul{
+    border-bottom: 1px solid #ececec;
+}
+
+.spoke .wapper .account-body .account-body-table li{
+    display: inline-block;
+    font-size: 13px;
+    width: 137px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.spoke .wapper .account-body .account-body-table .account-table-phone{
+    border-bottom: 1px solid #494949;
+    color: #333;
+    font-weight: 600;
+}
+
+.spoke .wapper .account-body .account-body-start .account-form{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-form a{
+    color:#41ac52; 
+}
+
+.spoke .wapper .account-body .account-body-start .account-zh{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.spoke .wapper .account-body .account-body-start .account-zh input{
+    width: 280px;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 8px 40px 8px 60px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-zh .account-zh-fi{
+    position: absolute;
+    left: 8px;
+    top: 0;
+    line-height: 33px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.spoke .wapper .account-body .account-body-start .account-zh .account-zh-fi-1{
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    height: 22px;
+    position: absolute;
+    top: 5.5px;
+    left: 50.5px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-yz{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-yz input{
+    width: 280px;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 8px 10px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-yz .account-yz-yzm{
+    color: #41ac52;
+    position: absolute;
+    top: 8.5px;
+    right: 30px;
+}
+
+.spoke .wapper .account-body .account-body-start .account-yz .account-yz-yzm a{
+    font-size: 13px;
+    font-family:  Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;;
+}
+
+.spoke .wapper .account-body .account-body-start .account-dl{
+    width: 280px;
+    background-color: rgba(66,189,86,.5);
+}
+
+.spoke .wapper .account-body .account-body-start .account-dl .account-dl-dll{
+    text-align: center;
+}
+
+.spoke .wapper .account-body .account-body-start .account-dl a{
+    height: 34px;
+    line-height: 34px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.spoke .wapper .account-body .account-body-ft{
+    width: 280px;
+    border-bottom: 1px solid #ddd;
+}
+
+.spoke .wapper .account-body .account-body-ft .account-body-ftt{
+    margin: 10px 0;
+}
+
+.spoke .wapper .account-body .account-body-ft .account-body-ftt a{
+    float: right;
+    font-size: 13px;
+    color: #41ac52;
+}
+
+.spoke .wapper .account-body .account-3d{
+    width: 280px;
+    height: 34px;
+    position: relative;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-hd{
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td{
+    position: absolute;
+    width: 72px;
+    height: 33px;
+    left: 80px;
+    bottom: 5px;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td div{
+   float: left;
+   margin-left: 10px;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td .account-td1 {
+    background: url("./img/u=1727982868\,3983581495&fm=26&gp=0.png") no-repeat 50% 50%/100%;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td .account-td1 a{
+   display: block;
+   width: 22px;
+   height: 22px;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td .account-td2{
+    background: url("./img/b61f04c8223690436432d1584fa77da0.jpg")no-repeat 50% 50%/100%;
+}
+
+.spoke .wapper .account-body .account-3d .account-3d-td .account-td2 a{
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+
+.spoke .wapper .app{
+    float: right;
+    position: relative;
+    margin-top: 92px;
+    width: 151px;
+    margin-right: 20px;
+}
+
+.spoke .wapper .app p{
+    margin: 7px 0;
+    font-size: 25px;
+    color: #111;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+.spoke .wapper .app .app-xz a{
+    font-size: 12px;
+    display: block;
+    background-color: #00B51D;
+    color: #fff;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.spoke .wapper .app .app-2wm{
+    position: absolute;
+    right: 0;
+    top: 49px;
+}
+
+.spoke .wapper .app .app-2wm a{
+    display: block;
+    background: url("./img/icon_qrcode_green.png")no-repeat 50% 50%/100%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #48aa0d;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.spoke .wapper .app .app-2wm:hover .app-2wm-img{
+    display: block;
+}
+
+.spoke .wapper .app .app-2wm .app-2wm-img{
+    padding: 15px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.spoke .wapper .app .app-2wm .app-2wm-img img{
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+}
+
+.spoke .wapper .app .app-2wm .app-2wm-img p{
+    color: #666;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.spoke .wapper .account-body .left-top{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.spoke .wapper .account-body .left-top a{
+    width: 30px;
+    height: 30px;
+    background: url("./img/下载.png")no-repeat 50% 50%/100%;
+    display: block;
+}
+
+.spoke .wapper .account-body .left-top:hover .left-top-p{
+    display: block;
+}
+
+.spoke .wapper .account-body .left-top .left-top-p{
+    width: 54px;
+    height: 20px;
+    line-height: 20px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 13px;
+    background-color: #f5faf9;
+    color: #666;
+    border: 1px solid rgba(66,189,86,.3);
+    display: none;
+}
+
+.spoke .wapper .account-body .left-top .left-top-s{
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #f5faf9;
+    position: absolute;
+    left: 64px;
+    top: 8px;
+}
+
+.spoke .wapper .account-body .left-top .left-top-s1{
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgba(66,189,86,.3);
+    position: absolute;
+    left: 65px;
+    top: 8px;
+}
+
+.sns .wapper{
+    margin-bottom: 30px;
+}
+
+.sns .left h1 .pl a:hover{
+    background-color: #669;
+    color: #fff;
+}
+
+.sns .left h1{
+    font-size: 15px;
+    line-height: 150%;
+    color: #072;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.sns .left h1 .pl{
+    color: #666666;
+}
+
+.sns .wapper .left{
+    width: 360px;
+    float: left;
+    margin-right: 20px;
+}
+
+.sns .wapper .left .left-img ul li .left-img1{
+    width: 170px;
+    height: 170px;
+}
+
+.sns .wapper .left .left-img ul li a{
+    color: #37a;
+}
+
+.sns .wapper .left .left-img ul li a,.sns .wapper .left .left-img ul li .num{
+    font-size: 12px;
+}
+
+.sns .wapper .left .left-img ul li{
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.sns .wapper .right{
+    width: 265px;
+    float: right;
+    margin-left: 30px;
+}
+
+.sns .wapper .right .right-img {
+    margin: 10px 0;
+}
+
+.sns .wapper .right .right-img a img{
+    width: 250px;
+    height: 125px;
+}
+
+.sns .wapper .right .right-item h1{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.sns .wapper .right .right-item span{
+    color: #666666;
+}
+
+.sns .wapper .right .right-item span a:hover{
+    color: #fff;
+    background-color: #37a;
+}
+
+.sns .wapper .right .right-item ul li{
+    margin: 15px 0;
+}
+
+.sns .wapper .right .right-item ul li span{
+    display: block;
+}
+
+.sns .wapper .right .right-item ul li a{
+    display: inline-block;
+    color: #3377aa;
+}
+
+.sns .wapper .right .right-item ul li a:hover{
+    color: #fff;
+    background-color: #669;
+}
+
+.sns .wapper .main{
+    width: 275px;
+    float: left;
+}
+
+.sns .wapper .main ul li{
+    margin-bottom: 10px;
+}
+
+.sns .wapper .main ul li span{
+    height: 38px;
+    font: 12px Helvetica,Arial,sans-serif;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sns .wapper .main ul li a{
+    color: #37a;
+    font: 12px Helvetica,Arial,sans-serif;
+}
+
+.sns .wapper .main ul li a:hover{
+    color: #fff;
+    background-color: #669;
+}
+
+.db-body-time{
+    background-color: #f7f7f7;
+    padding: 40px 0 0 20px;
+}
+
+.db-body-time .wapper .left{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.db-body-time .wapper .left h1{
+    font: 24px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #494949;
+}
+
+.db-body-time .wapper .right{
+    float: left;
+    width: 830px;
+}
+
+.db-body-time .wapper .right .title{
+    height: 36px;
+    line-height: 36px;
+}
+
+.db-body-time .wapper .right .title span{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    line-height: 150%;
+}
+
+.db-body-time .wapper .right .title a{
+    color: #37a;
+}
+
+.db-body-time .wapper .right .title a:hover{
+    color: #fff;
+    background-color: #669;
+}
+
+.db-body-time .wapper .right .img{
+    height: 573px;
+}
+
+.db-body-time .wapper .right .img .img-item{
+    text-align: center;
+    margin: 0 60px 30px 0;
+    width: 100px;
+    height: 216px;
+    float: left;
+}
+
+.db-body-time .wapper .right .img .img-item a img{
+    width: 100px;
+    height: 141px;
+}
+
+.db-body-time .wapper .right .img .img-item .imga{
+    font-size: 13px;
+    line-height: 1.38;
+}
+
+.db-body-time .wapper .right .img .img-item .imga:hover{
+    color: #fff;
+    background-color: #37a;
+}
+
+.db-body-time .wapper .right .img .img-item span{
+    color: #999999;
+    display: block;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.db-body-movie{
+    padding: 40px 0 0 20px;
+}
+
+.db-body-movie .wapper .left{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.db-body-movie .wapper .left h1 a{
+    font-size: 24px;
+    color: #27a;
+    margin-bottom: 12px;
+    line-height: 150%;
+}
+
+.db-body-movie .wapper .left h1 a:hover,.db-body-movie .wapper .left ul li a:hover{
+    background-color: #37a;
+    color: #fff;
+}
+
+.db-body-movie .wapper .left ul li{
+    margin-top: 5px;
+}
+
+.db-body-movie .wapper .left ul li a{
+    color: #27a;
+    font-size: 14px;
+}
+
+.db-body-movie .wapper .left ul .left-img{
+    position: relative;
+}
+
+.db-body-movie .wapper .left ul .left-img img{
+    position: absolute;
+    top: 3px;
+    right: 37px;
+}
+
+.db-body-movie .wapper .right{
+    width: 265px;
+    float: right;
+}
+
+.db-body-movie .wapper .right .top{
+    margin-bottom: 30px;
+}
+
+.db-body-movie .wapper .right .top h2,.db-body-movie .wapper .right .bottom h2,.db-body-movie .wapper .main h2{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin-bottom: 12px;
+    line-height: 150%;
+}
+
+.db-body-movie .wapper .right .top h2 a,.db-body-movie .wapper .right .bottom h2 a,.db-body-movie .wapper .main h2 a{
+    color: #27a;
+}
+
+.db-body-movie .wapper .right .top h2 a:hover,.db-body-movie .wapper .right .bottom h2 a:hover,.db-body-movie .wapper .main h2 a:hover{
+    background-color: #37a;
+    color: #fff;
+}
+
+.db-body-movie .wapper .right .top .selet ul li a,.db-body-movie .wapper .right .bottom ul li a{
+    font-size: 12px;
+    color: #27a;
+}
+
+.db-body-movie .wapper .right .top .selet ul li a:hover,.db-body-movie .wapper .right .bottom ul li a:hover{
+    color: #fff;
+    background-color: #37a;
+}
+
+.db-body-movie .wapper .right .top .selet ul{
+    width: 100%;
+}
+
+.db-body-movie .wapper .right .top .selet ul li{
+    float: left;
+    width: 48px;
+    height: 19px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.db-body-movie .wapper .right .bottom ul li{
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+    list-style: decimal;
+    font-size: 1px;
+    list-style-position: inside;
+}
+
+.db-body-movie .wapper .main{
+    width: 535px;
+    margin-left: 105px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item{
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 32px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item a{
+    display: block;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .img img{
+    width: 100px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .p{
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    margin-bottom: 6px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .acc{
+    height: 19px;
+    width: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .acc .accc{
+    width: 72px;
+    margin-left: 15px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .acc .acc-img{
+    height: 11px;
+    width: 55px;
+    background: url("./img/ic_rating_s.png")no-repeat 50% 0/100%;
+    
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .acc span{
+    height: 14px;
+    font-size: 12px;
+    color: #e09015;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    width: 17px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .buy{
+    font-size: 12px;
+    color: #fff;
+    background-color: #1c32d0;
+    width: 68px;
+    height: 23px;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.db-body-movie .wapper .main .main-img .main-img-item .buy:hover{
+    background-color: #27a;
+}
+
+.db-bottom .wapper{
+    border-top: 1px dashed #dcdcdc;
+    padding: 14px 0;
+    margin-top: 30px;
+    color: #999;
+}
+
+.db-bottom .wapper .left{
+    float: left;
+}
+
+.db-bottom .wapper .right{
+    float: right;
+}
+
+.db-bottom .wapper .left .item{
+    font-size: 12px;
+}
+
+.db-bottom .wapper .left .item a{
+    color: #27a;
+}
+
+.db-bottom .wapper .left .item a:hover{
+    background-color: #37a;
+    color: #fff;
+}
+
+.db-bottom .wapper .left .item .item-web img{
+    width: 110px;
+    height: 16px;
+}
+
+.db-bottom .wapper .left .item .item-wep img{
+    width: 15px;
+    height: 13px;
+}
+
+.db-bottom .wapper .left .item .item-wep .img1{
+    width: 15px;
+    height: 17px;
+}
+
+.db-bottom .wapper .left .item .item-1{
+    margin-bottom: 5px;
+}
+
+.db-bottom .wapper .right .right-title ul li{
+    float: left;
+}
+
+.db-bottom .wapper .right .right-title ul li a{
+    font-size: 12px;
+    color: #27a;
+}
+
+.db-bottom .wapper .right .right-title ul li a:hover{
+    background-color: #37a;
+    color: #fff;
+}
+
+.db-bottom .wapper .right .right-img img{
+    width: 150px;
+    height: 63px;
+    margin-top: 20px;
+}
