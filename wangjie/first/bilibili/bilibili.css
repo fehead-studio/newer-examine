@@ -1,0 +1,166 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.body .main{
+    width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.body .main .title{
+    width: 980px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    height: 28px;
+}
+
+.body .main .title h2{
+    height: 56px;
+    width: 116px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 56px;
+    font-weight: bold;
+    font-size: 38px;
+    background-color:#fff;
+}
+
+.body .main .input1{
+    margin-top: 60px;
+    position: relative;
+}
+
+.body .main .input1 p{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    left: 715px;
+    top: 13px;
+}
+
+input[type="text"],input[type="password"]{
+    border: 1px solid #dcdfe6;
+    width: 388px;
+    height: 38px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    color: #606266;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color:#ccc;
+}
+
+.body .main .text input:focus{
+    border-color:#00a1d6 ;
+}
+
+.body .main .text .select{
+    width: 388px; 
+    margin: 0 auto;
+}
+
+.body .main .text .select .select-item ul li:hover{
+    background-color: #f5f7fa;
+}
+
+.body .main .text .select .select-item ul li{
+     padding: 10px 0 10px 20px;
+     text-align: left ;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     cursor: pointer;
+}
+
+.body .main .text .select .select-item ul .li-item{
+    color: #00a1d6 ; 
+}
+
+.body .main .text .select .select-item ul{
+    border: 1px solid #dcdfe6;
+    padding-top:10px ;
+    max-height: 256px;
+    overflow-y: auto;
+    display: none;
+}
+
+.body .main .text .select .select-item .title-item{
+    border: 1px solid #dcdfe6;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    margin-bottom: 15px;
+    color: #00a1d6;
+}
+.body .main .text .select .select-item {
+    width: 130px;
+}
+
+.body .main .text .select .input input{
+    width: 258px;
+    border-radius: 0 4px 4px 0;
+}
+
+.body .main .text .select .select-item,.body .main .text .select .input{
+    float: left;
+}
+
+.body .main .input3{
+    position: relative;
+    height: 44px;
+}
+
+.body .main .input3 button{
+    position: absolute;
+    left: 565px;
+    width: 128px;
+    height: 38px;
+    top: 1px;
+    background-color: #33b4de;
+    color: #fff;
+    border: 1px solid #33b4de;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.body .main .check label{
+    font-size: 12px;
+    
+}
+
+.body .main .check a{
+    color:#00a1d6;
+}
+.body .main .zc{
+    margin-top: 10px;
+}
+
+.body .main .zc button{
+    width: 388px;
+    background-color: #33b4de;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.body .main .tile .l a{
+    font-size: 12px;
+}
+
+.body .main .tile{
+    width: 388px;
+    margin: 10px auto;
+    color: #33b4de;
+    text-align: right;
+}

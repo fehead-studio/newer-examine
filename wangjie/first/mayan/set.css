@@ -1,0 +1,150 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    color: #333;
+}
+.head{
+    height: 60px;
+    background-color: #47464a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.head a{
+    line-height: 60px;
+    margin: 0 40px;
+    color: #999;
+    font-size: 16px;
+}
+.head a:hover{
+    color: #fff;
+}
+.head a.color{
+    color: #ef4238;
+}
+.center{
+    width: 1120px;
+    margin: 0 auto;
+}
+.center .choose-area{
+     border: 1px solid #e5e5e5;
+     font-size: 14px;
+     line-height: 2;
+     padding: 0 30px;
+}
+.center .choose-area .choose-item .left{
+    float: left;
+    color: #999;
+}
+.center .choose-area .choose-item .right{
+    float: left;
+    width: 1016px;
+}
+.center .choose-area .choose-item .right li{
+    float: left;
+    margin: 0 15px;
+    padding: 0 6px;
+}
+.center .choose-area .choose-item .right li a:hover{
+    color: #ef4238;
+}
+.center .choose-area .choose-item{
+    margin: 1em 0;
+    border-bottom: 1px dotted #e5e5e5;
+    padding-bottom: 10px;
+
+}
+.center .choose-area div.no-line{
+    border: none;
+    margin: 0 0;
+}
+.center .choose-area .choose-item .right  li.section{
+    background-color: #ef4238;
+    color: #fff;
+    border-radius: 15px;
+}
+.movies{
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.movies .movie-area{
+    width: 160px;
+    height: 300px;
+    float: left;
+    margin:0 32px 25px 0;
+}
+.movies .movie-area div{
+    text-align: center;
+}
+.movies .movie-area .picture img{
+    width: 160px;
+    height: 220px;
+}
+.movies .movie-area:nth-child(6n){
+    margin: 0;
+}
+.movies .movie-area .movie-item{
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.movies .movie-area .score{
+    color: #ffb400;
+    margin-top: 13px;
+    font-size: 22px;
+    font-style: italic;
+}
+.movies .movie-area .score::first-letter{
+    font-size: 1.5em;
+}
+.section{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.section .item{
+    border: 1px solid #d8d8d8;
+    margin: 0 4px;
+    padding: 0 12px;
+}
+.section .item:hover{
+    border-color: #ef4238;
+}
+.section a.ddd{
+    background-color: #ef4238;
+    color: #fff; 
+}
+.ending{
+    background-color: #262426;
+    padding: 50px 0;
+    color: #ccc;
+    margin: 0 auto;
+}
+.ending .item{
+    text-align: center;
+    padding: 4px;
+}
+.ending .item a.content{
+    color: #ef4238;
+}
+.ending .item a:hover{
+    text-decoration: underline;
+}
+.ending .item .cencle{
+    margin-left: 0;
+}
+.ending .item span{
+    border: 1px solid #ccc;
+    margin: 0 10px;
+}
+.pic{
+    text-align: center;
+    margin-top: 20px;
+}
+.pic a{
+    margin: 0 7px;
+}
+
